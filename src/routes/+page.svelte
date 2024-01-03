@@ -3,7 +3,6 @@
 	import Container from '$src/components/container.svelte';
 	import InputNumber from '$src/components/input-number.svelte';
 	import Table from '$src/components/table.svelte';
-	import { WEBSITE_NAME } from '$src/lib/constants';
 
 	let monthly = $state(4200);
 	let schedule_hours_per_day = $state(8);
@@ -42,7 +41,11 @@
 </script>
 
 <svelte:head>
-	<title>Hello World | {WEBSITE_NAME}</title>
+	<title>Freelance Calculator</title>
+	<meta
+		name="description"
+		content="A simple calculator to help you work out your freelance rates."
+	/>
 </svelte:head>
 
 <Container pad>
