@@ -16,6 +16,9 @@ const config = {
 		env: {
 			publicPrefix: 'PUBLIC_',
 		},
+		prerender: {
+			handleHttpError: 'warn',
+		},
 		typescript: {
 			config: (initial) => ({
 				...initial,
@@ -32,7 +35,7 @@ const config = {
 				},
 			}),
 		},
-	}
+	},
 };
 
 export default config;
