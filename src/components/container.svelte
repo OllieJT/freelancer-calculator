@@ -7,7 +7,7 @@
 
 <div
 	class={twMerge(
-		'mx-auto my-6 w-full max-w-2xl rounded-2xl bg-white ring-1 ring-mono-800/10',
+		'mx-auto my-6 w-full max-w-2xl overflow-hidden rounded-2xl bg-white ring-1 ring-mono-800/10',
 		pad ? 'p-6' : '',
 	)}
 >

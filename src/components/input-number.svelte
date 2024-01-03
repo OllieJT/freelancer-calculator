@@ -48,7 +48,7 @@
 			{min}
 			{max}
 			{step}
-			class="h-3 w-full cursor-pointer appearance-none rounded-lg bg-mono-200 dark:bg-mono-700"
+			class="h-3 w-full cursor-pointer appearance-none rounded-lg bg-mono-300"
 		/>
 	{:else}
 		<input
